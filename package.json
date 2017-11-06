@@ -1,0 +1,27 @@
+{
+  "name": "ImageSearchAbstractionLayer",
+  "version": "0.0.1",
+  "description": "ISAL for FreeCodeCamp BackEnd projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "serve-favicon": "^2.4.3",
+    "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "url": "https://github.com/francoserio/ISAL.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
