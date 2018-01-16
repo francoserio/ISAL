@@ -1,5 +1,39 @@
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'JSON')">JSON</button>
-  <button class="tablinks" onclick="openCity(event, 'Raw Data')">Raw Data</button>
-  <button class="tablinks" onclick="openCity(event, 'Headers')">Headers</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="Image Search Abstraction Layer by Franco Serio">
+    <meta name="author" content="Franco Serio">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+		<title>Image Search Abstraction Layer</title>
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap-grid.min.css">
+		<link rel="stylesheet" href="font-awesome.min.css">
+		<link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon">
+	</head>
+<body>
+  <div>
+    <center>
+      <h1>Image Search Abstraction Layer</h1>
+      <h2>Description</h2>
+        <p class="text-primary">
+          A simple API that can retrieve images according to a phrase. These images are given in JSON format.
+        </p>
+      <h2>How to use it</h2>
+        <p class="text-primary">
+          As an example you can search images with the term wizards by typing https://isal-franco.glitch.me/search/wizards?offset=1
+        </p>
+        <p class="text-primary">
+          You can also see the history of all the searches done by all the people that have used this API with https://isal-franco.glitch.me/history
+        </p>
+      <h2>Response</h2>
+        <p class="text-primary">
+          The response should be something like: [{"url":"https://www.thesorceryblog.com/powerfulwizard.jpg", "snippet":"Wizards of
+          Wizard Quest", "thumbnail":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQyv", "context":"https://www.thesorceryblog.com"},
+          ....... and 9 more relevant images ....... ]
+        </p>
+    </center>
+  </div>
+</body>
+</html>

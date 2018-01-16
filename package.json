@@ -4,11 +4,15 @@
   "description": "ISAL for FreeCodeCamp BackEnd projects",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.15.3",
+    "google-search": "0.0.5",
+    "googleapis": "^24.0.0",
     "mongodb": "^2.2.30",
+    "mongoose": "^4.13.9",
+    "request": "^2.83.0",
     "serve-favicon": "^2.4.3",
     "valid-url": "^1.0.9"
   },
@@ -23,5 +27,8 @@
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }
