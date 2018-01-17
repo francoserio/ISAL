@@ -13,8 +13,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded( { extended: true } ));
 
-const CX = process.env.id || '002294623826931134762:wervykxjar8';
-const API_KEY = process.env.key || 'AIzaSyB6meuFL_5UuuHC8qbCT7v5dAzO3bbY7Yw';
+const CX = process.env.id;
+const API_KEY = process.env.key;
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
